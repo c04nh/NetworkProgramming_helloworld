@@ -8,7 +8,7 @@ def say_hello(request):
 
 
 def say_hello_html(request):
-    return render(request, 'playground/hello.html', {'name': '나혀니'})
+    return render(request, 'playground/hello.html', {'name': '앙큼한 고양이 냐옹~'})
 
 def say_bye(request):
     return render(request, 'playground/bye.html')
